@@ -1,0 +1,68 @@
+/**
+ * map.css
+ *
+ *
+ * Global stylesheet.
+ */
+       
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+h1
+{
+	position: absolute;
+	left: 3in;
+	top: 0in;
+}
+
+select
+{
+	cursor:pointer;
+}
+
+#map
+{
+	top: .75in;
+	height: 8.5in;
+	position: absolute;
+	width: 8in;
+	left: 0.25in;
+}
+
+#routeinfo
+{
+	position: absolute;
+	top: 900px;
+	left: 0.25in;
+}
+
+.nighttemp
+{
+	color:blue;
+}
+
+.daytemp
+{
+	color:red;
+}
+
+.hidDir
+{
+	display:none;
+}
+
+div.dirClick:hover
+{
+	cursor:pointer;
+	text-decoration:underline;
+	color:#A0522D;
+}
